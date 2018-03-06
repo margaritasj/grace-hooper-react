@@ -1,5 +1,5 @@
 {
-  "name": "grace-hopper-react",
+  "name": "grace-hooper-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,5 +12,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "La siguiente página web muestra un contenedor que cambia aleatoriamente de color y estilo de texto que consta de un componente.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/margaritasj/grace-hooper-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/margaritasj/grace-hooper-react/issues"
+  },
+  "homepage": "https://github.com/margaritasj/grace-hooper-react#readme"
 }

@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 
 // Components
-// import Content from './component/Header';
-import Content from './component/Content';
-// import Content from './component/Footer';
+import Header from './components/Header';
+import Content from './components/Content';
+// import Footer from './component/Footer';
 
 class App extends Component {
+  
   render() {
     return (
       <div>
+        <Header/>
         <Content />
       </div>
     );
@@ -16,3 +18,4 @@ class App extends Component {
 }
 
 export default App;
+
