@@ -17,7 +17,9 @@ class Aside extends Component {
             <tbody>
               <tr>
                 <td colSpan="2">
-                  <img src={grace_hooper} />
+                  <div>
+                    <img src={grace_hooper} />
+                  </div>
                   <p>Rear Admiral Grace M. Hopper, 1984</p>
                   <hr />
                 </td>
