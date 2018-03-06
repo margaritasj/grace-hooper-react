@@ -8,7 +8,7 @@ class Content extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
+      <section className="container-fluid">
         <div className="col-8 text-justify">
           <p className=""> <strong>Grace Brewster Murray Hopper</strong> (<a href="https://en.wikipedia.org/wiki/Given_name#Name_at_birth" target="_blank">née</a> <strong>Murray</strong>; December 9, 1906 – January 1, 1992) was an American <a href="https://en.wikipedia.org/wiki/Computer_scientist" target="_blank">computer scientist</a> and <a href="https://en.wikipedia.org/wiki/United_States_Navy" target="_blank">United States Navy </a><a href="https://en.wikipedia.org/wiki/Rear_admiral_(United_States)" target="_blank">rear admiral</a>. <sup><a href="https://en.wikipedia.org/wiki/Grace_Hopper#cite_note-1" target="_blank">[1]</a></sup> One of the first programmers of the <a href="https://en.wikipedia.org/wiki/Compiler" target="_blank">Harvard Mark I</a>  computer, she was a pioneer of computer programming who invented one of the first <a href="https://en.wikipedia.org/wiki/Compiler">compiler</a> related tools. She popularized the idea of machine-independent programming languages, which led to the development of <a href="https://en.wikipedia.org/wiki/COBOL">COBOL</a>, an early <a href="https://en.wikipedia.org/wiki/High-level_programming_language">high-level programming language</a> still in use today.</p>
           <p>Hopper had attempted to enlist in the Navy during <a href="https://en.wikipedia.org/wiki/World_War_II" target="_blank"> World War II</a>, but she was rejected by the military because she was 34 years of age and too old to enlist. She instead joined the Navy Reserves. Hopper began her computing career when she worked on the Harvard Mark I team that was led by <a href="https://en.wikipedia.org/wiki/Howard_H._Aiken" target="_blank">Howard H. Aiken</a>. In 1949, she joined the <a href="https://en.wikipedia.org/wiki/Eckert%E2%80%93Mauchly_Computer_Corporation" target="_blank">Eckert–Mauchly Computer Corporation</a> and was part of the development team that designed the <a href="https://en.wikipedia.org/wiki/UNIVAC_I" target="_blank">UNIVAC I</a> computer in 1944. It was at Eckert–Mauchly that she began developing the compiler. She believed that computer code could be written in English by using a programming language that was based on English words. The compiler would convert that code into <a href="https://en.wikipedia.org/wiki/Machine_code" target="_blank">machine code</a> that would be understood by computers. By 1952, Hopper finished her compiler, which was written for the <a href="https://en.wikipedia.org/wiki/A-0_System">A-0 System</a> programming language.<sup><a href="https://en.wikipedia.org/wiki/Grace_Hopper#cite_note-Spencer85-2" target="_blank">[2]</a><a href="https://en.wikipedia.org/wiki/Grace_Hopper#cite_note-Laplante01-3" target="_blank">[3]</a><a href="https://en.wikipedia.org/wiki/Grace_Hopper#cite_note-Bunch93-4" target="_blank">[4]</a><a href="https://en.wikipedia.org/wiki/Grace_Hopper#cite_note-Booss03-5" target="_blank">[5]</a></sup></p>
@@ -29,7 +29,7 @@ class Content extends Component {
   
           <a href="#" target="_blank">See more</a>
          </div>
-        </div>
+        </section>
     );
   }
 }

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import grace_hooper from "./assets/images/grace_hopper.jpg";
-import "./css/content.css";
+import "./css/aside.css";
 
 class Aside extends Component {
   render() {
     return (
-      <aside className="row">
+      <aside className="">
         <div className="col-3 text-justify">
           <table className="summary-table">
             <thead>

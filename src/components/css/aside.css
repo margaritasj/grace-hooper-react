@@ -1,0 +1,46 @@
+/*Aside*/
+
+.summary {
+  position: absolute;
+  right: 2rem;
+  top: 10.5rem;
+  display: inline-block;
+  font-size: 88%;
+  width: 23%;
+  margin-top: 15px;
+
+}
+.summary-table {
+  border: 2px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding-top: 2px;
+  font-size: 14px;
+
+}
+.summary-table thead th {
+  background-color: #B0C4DE;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 16px;
+}
+.summary-table tbody tr:first-child {
+  text-align: center;
+  line-height: 0.5px;
+  font-size: 12.2px;
+}
+.summary-table tbody {
+  font-size: 12.2px;
+  line-height: inherit;
+}
+
+.summary-table tbody th {
+  text-align: left;
+}
+tr {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration-line: none;
+  color: #0645ad;
+}
