@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // Components
 import Header from './components/Header';
 import Content from './components/Content';
-// import Footer from './component/Footer';
+import Aside from './components/Aside';
 
 class App extends Component {
   
@@ -12,6 +12,7 @@ class App extends Component {
       <div>
         <Header/>
         <Content />
+        <Aside />
       </div>
     );
   }
